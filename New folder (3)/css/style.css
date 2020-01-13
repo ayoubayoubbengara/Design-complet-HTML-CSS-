@@ -1,0 +1,145 @@
+body
+{
+	margin: 10px 0;
+	padding: 0;
+	text-align: center;
+	font: 0.8em "Trebuchet MS", helvetica, sans-serif;
+	font-style: normal;
+	background: #dea;
+}
+
+div#page
+{
+	width: 770px;
+	margin: 0 auto;
+	border: 2px solid #ab4;
+	background: #fff;
+	text-align: left;
+}
+
+h1#head
+{
+	background: url(../image/apple.jpg) no-repeat left top;
+	margin: 0px;
+    height: 255px;
+}
+
+h1#head a
+{
+	width: 400px;
+	height: 70px;
+	display: block;
+	background: url(../image/title.gif) no-repeat;
+	position: relative;
+	left: 350px;
+	top: 15px;
+	text-indent: -5000px;
+}
+
+ul#menu
+{
+	background: url(../image/bg_menu.gif) repeat-x 0 -25px;
+	margin: 0;
+	padding: 0;
+	height: 35px;
+	list-style-type: none;
+}
+		
+ul#menu li
+{
+	float: left;
+	text-align: center;
+}
+
+ul#menu li a
+{
+	line-height: 25px;
+	width: 130px;
+	color: #fff;
+	display: block;
+	font-size: 1.2em;
+	border-right: 2px solid #dea;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-decoration: none;
+}
+
+ul#menu li a:hover
+{
+	background: url(../image/bg_menu.gif) repeat-x 0 0;
+}
+
+div#container
+{
+	padding: 0 25px 0 100px;
+	background: url(../image/bg_page.gif) no-repeat 15px 15px;
+}
+
+div#container h1
+{
+	padding-left: 25px;
+	line-height: 25px;
+	font-size: 1.4em;
+	background: url(../image/little_apple.gif) no-repeat left bottom;
+	color: #9b2;
+	border-bottom: 1px solid #9b2;
+}
+
+div#container h2
+{
+	margin-left: 15px;
+	padding-left: 5px;
+	border-bottom: 1px solid #9b2;
+	border-left: 3px solid #9b2;
+	color: #9b2;
+}
+
+div#container p
+{
+	text-align: justify;
+	text-indent: 2em;
+	line-height: 2em;
+}
+
+div#container a
+{
+	color: #8a0;
+}
+
+div#container a:hover
+{
+	color: #9b2;
+}
+
+p#footer
+{
+	margin: 0;
+	padding-right: 10px;
+	line-height: 30px;
+	text-align: right;
+	color: #8a0;
+}
+
+pre
+{
+	overflow: auto;
+	background: #dea;
+	border: 2px solid #9b2;
+	padding: 5px 0 0 5px;
+	font-size: 1.2em;
+}
+
+* html pre
+{
+	width: 636px;
+}
+
+pre span
+{
+	color: #560;
+}
+
+pre span.comment
+{
+	color: #b30000;
+}
